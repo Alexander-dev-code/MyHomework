@@ -1,10 +1,9 @@
-public class Human implements Move{
-
+public class Cat implements Move {
     private String name;
-    public int distance;
+    private int distance;
     private double jump;
 
-    public Human(String name, int distance, double jump){
+    public Cat(String name, int distance, double jump){
         this.name = name;
         this.distance = distance;
         this.jump = jump;
@@ -12,12 +11,12 @@ public class Human implements Move{
 
     @Override
     public void jump() {
-        System.out.print(this.name + " jump");
+        System.out.print(name + " jump");
     }
 
     @Override
     public void run() {
-        System.out.print(this.name + " run");
+        System.out.print(name + " run");
     }
 
     @Override

@@ -1,10 +1,9 @@
-public class Human implements Move{
-
+public class Robot implements Move {
     private String name;
-    public int distance;
+    private int distance;
     private double jump;
 
-    public Human(String name, int distance, double jump){
+    public Robot(String name, int distance, double jump){
         this.name = name;
         this.distance = distance;
         this.jump = jump;

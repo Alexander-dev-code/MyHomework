@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6022bb1-5f4c-43e3-9d52-a65fb751b99c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Human.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AbsWall.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Move.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Robot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RunningTrack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Start.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Wall.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Human.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +22,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -30,11 +40,26 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="C:/MyProjects/MyBot" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../GeekBrains-Java-2" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Start" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Start" />
+      <module name="FirstTask" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Start" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -54,13 +79,65 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="550" y="22" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1593296597229" />
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1593296560799">
+    <state x="610" y="68" key="#com.intellij.ide.util.MemberChooser" timestamp="1593383174657">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1593296560799" />
+    <state x="610" y="68" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1593383174657" />
+    <state x="416" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1593386772850">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="416" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1593386772850" />
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1593339753767">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1593339753767" />
+    <state x="430" y="219" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1593383491376">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="430" y="219" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.728@0.0.1366.728" timestamp="1593383491376" />
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1593382274743">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1593382274743" />
+    <state width="1323" height="171" key="GridCell.Tab.0.bottom" timestamp="1593412155036">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="171" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593412155036" />
+    <state width="1323" height="171" key="GridCell.Tab.0.center" timestamp="1593412155035">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="171" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1593412155035" />
+    <state width="1323" height="171" key="GridCell.Tab.0.left" timestamp="1593412155035">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="171" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1593412155035" />
+    <state width="1323" height="171" key="GridCell.Tab.0.right" timestamp="1593412155036">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="171" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1593412155036" />
+    <state x="213" y="18" key="Maven.ArtifactSearchDialog" timestamp="1593338292838">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="213" y="18" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1593338292838" />
+    <state x="348" y="62" key="NewModule_or_Project.wizard" timestamp="1593382178482">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="348" y="62" key="NewModule_or_Project.wizard/0.0.1366.728@0.0.1366.728" timestamp="1593382178482" />
+    <state x="163" y="0" key="SettingsEditor" timestamp="1593334329332">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1593334329332" />
+    <state x="380" y="0" width="606" height="728" key="find.popup" timestamp="1593386533030">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="380" y="0" width="606" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1593386533030" />
     <state x="65" y="59" key="new project wizard" timestamp="1593296548583">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="65" y="59" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1593296548583" />
+    <state x="389" y="0" key="refactoring.ChangeSignatureDialog" timestamp="1593331709591">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="389" y="0" key="refactoring.ChangeSignatureDialog/0.0.1366.728@0.0.1366.728" timestamp="1593331709591" />
   </component>
 </project>
