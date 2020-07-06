@@ -29,7 +29,6 @@ public class Main {
         name.add( "Bob" );
 
         Map<String, Integer> names = new HashMap<>();
-
         for (String string : name) {
             if(names.keySet().contains(string)) {
                 names.put(string, names.get(string) + 1);
